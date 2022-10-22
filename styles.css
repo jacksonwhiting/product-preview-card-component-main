@@ -1,0 +1,94 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-family: "Montserrat", sans-serif;
+   margin: 0;
+}
+
+.frauncis-font {
+   font-family: "Frauncis";
+   font-size: 32px;
+   font-weight: 700;
+   letter-spacing: 1px;
+}
+
+.product-card {
+   display: flex;
+   flex-direction: column;
+   background: #F2EAE2;
+   width: 375px;
+   font-size: 14px;
+   border-radius: 8px;
+}
+
+.product-card__contents {
+   margin: 28px 16px;
+   background: white;
+   border-radius: 8px;
+}
+
+.product-card__contents img {
+   border-radius: 8px 8px 0 0;
+}
+
+.product-card__details {
+   margin: 24px;
+}
+
+.product-card__details P {
+   color: #6C7289;
+   font-weight: 500;
+   line-height: 1.7;
+}
+
+.product-card__perfume {
+   margin: 0 0 12px 0;
+   letter-spacing: 6px;
+   font-size: 12px;
+}
+
+.product-card__title {
+   margin: 0;
+   color: #1C232B;
+}
+
+.product-card__price {
+   display: flex;
+   align-items: center;
+}
+
+.product-card__price-current {
+   margin: 0;
+   color: #3D8168;
+}
+
+.product-card__price-old {
+   margin-left: 16px;
+}
+
+.display-card__btn {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 12px;
+   width: 295px;
+   height: 48px;
+   cursor: pointer;
+   background: #3D8168;
+   color: white;
+   border: none;
+   border-radius: 8px;
+   font-family: "Montserrat", sans-serif;
+   font-size: 14px;
+}
+
+.display-card__btn-text {
+   margin-left: 6px;
+}
