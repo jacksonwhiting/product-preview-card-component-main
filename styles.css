@@ -107,6 +107,11 @@ body {
    margin-left: 6px;
 }
 
+.product-card__desktop-image {
+   width: 300px;
+   height: 450px;
+}
+
 @media (max-width: 639px) {
    .product-card__desktop-image {
       display: none;
@@ -135,10 +140,5 @@ body {
 
    .product-card__mobile-image {
       display: none;
-   }
-
-   .product-card__desktop-image {
-      width: 300px;
-      height: 450px;
-   }
+   } 
 }
